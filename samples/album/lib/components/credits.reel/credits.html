@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- <copyright>
+Copyright (c) 2012, Motorola Mobility LLC.
+All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of Motorola Mobility LLC nor the names of its
+  contributors may be used to endorse or promote products derived from this
+  software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+</copyright> -->
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <link rel="stylesheet" type="text/css" href="credits.css">
+
+        <script type="text/montage-serialization">
+         {
+            "homebtn": {
+                "prototype": "montage/ui/button.reel",
+                "properties": {
+                    "element": {"#": "home-btn"},
+                    "identifier": "goBack"
+                },
+                "listeners": [
+                    {
+                        "type": "action",
+                        "listener": {"@": "owner"}
+                    }
+                ]
+            },
+            "scroller": {
+                "prototype": "montage/ui/scroller.reel",
+                "properties": {
+                    "element": {"#": "credits-container"}
+                }
+            },
+            "owner": {
+                "prototype": "components/credits.reel",
+                "properties": {
+                    "element": {"#": "credits"}
+                }
+            }
+        }
+         </script>
+
+    </head>
+
+    <body>
+
+        <div data-montage-id="credits" class="credits">
+
+            <div class="buttons">
+                <button data-montage-id="home-btn" class="home-btn">Home</button>
+            </div>
+
+            <div data-montage-id="credits-container" class="credits-container">
+
+                <ul class="credits-content">
+                    <li>
+                        <h3>NINE INCH NAILS: GHOSTS I-IV</h3>
+                        <p>Trent Reznor: all performance except as noted, production<br />
+                            Atticus Ross: programming, arranging, production<br />
+                            Alan Moulder: engineering, mix engineering, production
+                        </p>
+
+                        <p>Rob Sheridan: art direction, with Trent Reznor and Artist In Residence With special guests Alessandro Cortini, Adrian Belew and Brian Viglione<br />
+                            Support: Brett Bachemin, Dustin Mosley, Michael Tuller and Alynn Dotson<br />
+                            Management: Rebel Waltz</p>
+
+                        <p>Mastered by Tom Baker, Precision Mastering, Hollywood CA.</p>
+
+                        <p>Photography by Phillip Graybill and Rob Sheridan<br />
+                            Additional photography: Tamar Levine</p>
+
+                        <p>Business management: William Harper and Michael Walsh for Gelfand, Rennert &amp; Feldman, LLP</p>
+
+                        <p>Legal: Gary Stiffelman and David Byrnes Worldwide<br />
+                            booking: Marc Geiger for William Morris Agency</p>
+
+                        <p>Label: The Null Corporation</p>
+
+                        <p>Press: US Steve Martin (Nasty Little Man) UK Frances McCahon (RMP)</p>
+
+                        <p>The Null Corporation Europe: Didi Parlevliet</p>
+                        <p>Web integration: Sudjam</p>
+
+
+                        <p>This album is licensed under a Creative Commons Attribution-Noncommercial Share Alike license. More information: <a href="http://creativecommons.org">creativecommons.org</a></p>
+                        <p><img src="lib/components/credits.reel/images/nin-logo.png" alt="NIN logo" /><br />
+                            halo twenty six</p>
+                        <p>&copy;2008 NIN <a href="http://nin.com">nin.com</a></p>
+                    </li>
+
+                    <li>
+                        <h3>Thank you:</h3>
+                        <ul>
+                            <li>Bruno Bondanelli</li>
+                            <li>Andrew Grad</li>
+                            <li>Andrew “Hans” Buscher</li>
+                            <li>Angela Sidlow</li>
+                            <li>Christina Lum</li>
+                            <li>Cori Bardo</li>
+                            <li>Craig Johnston</li>
+                            <li>Guitar Center</li>
+                            <li>Irina Volodarsky</li>
+                            <li>Jeff Anderson</li>
+                            <li>Jeff Davis</li>
+                            <li>Jeff Masud</li>
+                            <li>Jim Scheel</li>
+                            <li>Miles Rogers and Digidesign</li>
+                            <li>Pablo La Rosa and Native Instruments</li>
+                            <li>Paul Cox</li>
+                            <li>Paul Haines</li>
+                            <li>Paul J. Cox Studio Systems</li>
+                            <li>Phillip Scholes and SSL</li>
+                            <li>Ricky Chao</li>
+                            <li>Rock-It Cargo</li>
+                            <li>Roger Cordell and Big City Music</li>
+                            <li>Ross Rosen</li>
+                            <li>Scott Rodger</li>
+                            <li>Shawn Cleary and Analogue Haven</li>
+                            <li>Steve “Coco” Brandon</li>
+                            <li>Vintage King</li>
+                            <li>Westlake Audio</li>
+                            <li>West L.A. Music</li>
+                            <li>Zia Modabber</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </body>
+
+</html>

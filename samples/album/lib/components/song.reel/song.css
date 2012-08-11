@@ -1,0 +1,53 @@
+/* @override http://localhost:8082/media-discovery/lp/ghost/lib/components/song.reel/song.css */
+
+.song {
+	position: 		absolute;
+    width:          1280px;
+    height:         700px;
+}
+
+.song > .buttons {
+    text-align: center;
+}
+.song > .buttons > button {
+    position: static;
+}
+.song > .buttons > .play-btn {
+    width: 100px;
+}
+
+.song > .audio-buttons {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    height: 100%;
+}
+.song > .audio-buttons > button {
+    display: block;
+    margin: 140px;
+}
+
+.visualizer {
+    -webkit-perspective: 500;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin: -250px;
+    border-radius: 50%;
+    background-color: hsla(0,0%,100%,.02);
+    
+    -webkit-transform: scale(0);
+    -webkit-transition: -webkit-transform 1s ease-out;
+}
+.visualizer.on {
+    -webkit-transform: scale(1);
+}
+
+.visualizer div {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+

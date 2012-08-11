@@ -1,0 +1,9 @@
+<manifest xmlns="http://apple.com/itunes/media_archive/manifest" version="1.0" media_archive_version="1.0" media_archive_build_number="4164">
+    <requirements>
+        <supported_platforms>
+            <platform name="iTunes" minimum_version="9.0"/>
+            <platform name="AppleTV" minimum_version="3.0"/>
+        </supported_platforms>
+    </requirements>
+    <library_items>
+</manifest>
